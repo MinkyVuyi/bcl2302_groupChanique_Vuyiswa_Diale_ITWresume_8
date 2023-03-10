@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Resume</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+
+<header>
+    <div class="banner">
+        <h1>Vuyiswa Diale</h1>
+        <picture>
+            <source media="(max-width: 700px)" srcset="images/Vuyiswa3.png" />
+            <source media="(max-width: 1000px)" srcset="images/Vuyiswa2.png" />
+            <img src="images/Vuyiswa1.png" alt="Vuyi" />
+        </picture>
+
+
+        <p class="intro">I am a passionate individual who loves learning different things and hard working is my
+            strategy. With 7 years experience in the Banking industry which has helped me manage my finances and helping
+            others
+            manage their own has been my new skill. I am currently studying Software Engineering, as a hard worker, I
+            believe one
+            can achieve anything they want in life through hard work and dedication.</p>
+        <aside>
+            <nav>
+                <a href="#Education" class="menu">Education</a>
+                <a href="#Experience" class="menu">Experience</a>
+                <a href="#Skills" class="menu">Skills</a>
+                <a href="#Contact Details" class="menu">Contact Details</a>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</header>
+
+
+<body>
+    <div class="container">
+
+
+        <main>
+            <h2 id="Education">Education</h2>
+            <p class="edu">2023-Feb - 2023-Mar: Intro to Web at <a href="https://www.codespace.co.za/"
+                    target="_blank">CodeSpace
+                    Academy.</a></p>
+
+
+            <h2 id="Qualifications">Qualifications</h2>
+
+
+            <ul>
+                <li>
+                    <h5>2016-Sep - 2017-Sep: NQF level 4 Further Education and Training Certificate: Banking</h6>
+                </li>
+                <li>
+                    <h5>2020-Feb - 2021-Nov(Paused): Forensic Science and Technology at <a
+                            href="https://www.unisa.co.za/" target="_blank">Unisa.</a></h6>
+                </li>
+                <li>
+                    <h5>2014-Jan - 2014-Nov: Electrical Engineering N2 and N3 at <a href="https://www.ukuqonda.co.za/"
+                            target="_blank">Ukuqonda Institute.</a></h6>
+                </li>
+                <li>
+                    <h5>2010-Feb - 2010-Dec: Basic Computer at I.C.E college which was closed in 2015</h6>
+                </li>
+            </ul>
+        </main>
+
+
+        <section>
+            <h2 id="Experience">Experience</h2>
+            <h3>2015-Sep - 2022-June Service Consultant</h3>
+            <ul>
+                <li>Assisted clients with opening Savings accounts.</li>
+                <li>Helping clients who wanted to apply for Credit and Home Loans.</li>
+                <li>Assisted clients who wanted to either apply for a Funeral Cover and the ones who wanted to make
+                    funeral cover claims.</li>
+                <li>I led start up meetings and the Team Learning Session.</li>
+            </ul>
+
+
+            <h3>2013-Feb - 2013-Nov Cashier</h3>
+            <ul>
+                <li>Assisted customers when they pay.</li>
+                <li>Handled cash and counted money customers paid with.</li>
+                <li>Pack stock in the correct shelves.</li>
+                <li>Count stock every new quarter, we called it "Stock-Taking".</li>
+            </ul>
+
+
+            <h2 id="Skills">Skills</h2>
+            <ul>
+                <li>Communication Skills</li>
+                <li>Typing Skills</li>
+                <li>Leadership Skills</li>
+                <li>Computer Skills</li>
+                <li>Planning Skills</li>
+            </ul>
+        </section>
+
+
+    </div>
+</body>
+
+
+<footer>
+    <h2 class="con" id="Contact Details">Contact Details</h2>
+    <p><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></p>
+    <p>Email: dialevuyiswa@gmail.com</p>
+    <p>Cell Number: 0685107352</p>
+    <!--The number used is fake-->
+
+
+    <form action="https://formsubmit.co/dialevuyiswa@gmail.com" method="POST">
+        <h4>Contact Form</h4>
+
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Choose a Subject</option>
+            <option value="Job opportunity">Job Opportunity</option>
+            <option value="Proposal collaboration">Proposal Collaboration</option>
+            <option value="General queries">General Queries</option>
+        </select>
+        <br>
+
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" required>
+        <br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+
+        <label for="message" class="Q">Message:</label>
+        <br>
+        <label></label>
+        <textarea name="message" id="message" placeholder="message here (optional)"></textarea>
+        <br>
+        <br>
+        <button class="submission">Submit</button>
+    </form>
+</footer>
+
+
+</html>
